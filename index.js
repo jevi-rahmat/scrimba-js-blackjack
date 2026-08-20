@@ -40,6 +40,9 @@ function newCard() {
     
     let card = 8
     sum += card
+    cards.push(card)
+    console.log(cards)
+
     renderGame()
 }
 
@@ -64,3 +67,33 @@ function newCard() {
 // } else {
 //     console.log("Not eligible, you have already gotten one")
 // }
+
+// --- Practice #3 ---
+
+// let skills = ["Tactical Management", "Factory Design", "Efficiency Estimation"]
+
+// console.log(skills[1])
+// console.log(skills[2])
+// console.log(skills[0])
+
+// let myself = ["Jev Glossary", 20, true]
+
+// console.log(myself[0])
+// console.log(myself[1])
+// console.log(myself[2])
+
+// --- Practice #4 ---
+
+// let messages = [
+//     "Hey, how's it going?",
+//     "I'm great, thank you! How about you?",
+//     "All good. Beem working on my portfolio lately."
+// ]
+
+// let newMessage = "Same here!"
+
+// messages.push(newMessage)
+// console.log(messages)
+
+// messages.pop()
+// console.log(messages)
